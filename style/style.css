@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: #663a82;
+  text-align: center;
+}
+
+.plateau {
+  background-color: #3c1361;
+  margin: 0;
+  padding: 2rem;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 6rem);
+  gap: 1rem;
+  list-style-type: none;
+  border-radius: 25px;
+}
+
+.cellule {
+  color: #1a1423;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  background-color: #bca0dc;
+  font-size: 50px;
+  border-radius: 25px;
+}
+
+.container {
+  padding: 50px;
+  height: 20vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #663a82;
+  border-radius: 25px;
+}
+
+button {
+  margin: 20px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 15px;
+  border: none;
+  background-color: #bca0dc;
+}
+
+button:hover {
+  background-color: #3c1361;
+  cursor: pointer;
+  color: #bca0dc;
+}
+
+.cellule:hover {
+  cursor: pointer;
+}
